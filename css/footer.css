@@ -1,0 +1,61 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-row:hover {
+  cursor: pointer;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 60px;
+  background-color: #d3d6da;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.keyboard-block-big .Enter {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.keyboard-block-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 60px;
+  background-color: #d3d6da;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.keyboard-block-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 60px;
+  background-color: #d3d6da;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.keyboard-block-back img {
+  width: 25px;
+  height: 25px;
+}

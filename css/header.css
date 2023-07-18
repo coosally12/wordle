@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d3d6da;
+  padding: 10px 30px 10px 30px;
+}
+
+.info_menu__icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30px;
+  height: 40px;
+}
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.info_other__icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9px;
+  width: 30px;
+  height: 40px;
+}
