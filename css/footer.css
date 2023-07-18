@@ -59,3 +59,8 @@ footer {
   width: 25px;
   height: 25px;
 }
+
+span.alpabet {
+  font-size: 20px;
+  font-weight: bold;
+}
