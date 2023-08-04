@@ -28,6 +28,10 @@ footer {
   margin-bottom: 8px;
 }
 
+.keyboard-block:focus {
+  color: yellow;
+}
+
 .keyboard-block-big .Enter {
   font-weight: bold;
   font-size: 13px;

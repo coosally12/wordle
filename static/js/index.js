@@ -1,13 +1,13 @@
 let attempts = 0;
 let index = 0;
 let timer;
+let date;
 
 function appStart() {
   const displayGameover = () => {
-    const div = document.createElement("div");
-    div.innerText = "게임이 종료되었습니다.";
+    const div = document.querySelector(".answer");
     div.style =
-      "display:flex;justify-content:center;align-items:center; position:absolute; top:40vh; left: 30%;background-color:white;width:200px;height:100px;";
+      "display:flex;justify-content:center;align-items:center; position:absolute; top:40vh; left: 38%;width:200px;height:100px;";
     document.body.appendChild(div);
   };
 
@@ -68,6 +68,14 @@ function appStart() {
       index += 1;
     }
   };
+
+  // const todayYear = () => {
+  //   const 현재_날짜 = new Date();
+  //   const 현재_연도 = new Date().getFullYear().toString();
+  //   const yearDiv = document.querySelector(".year");
+  // };
+  // todayYear();
+
   const startTimer = () => {
     const 시작_시간 = new Date();
     function setTime() {
